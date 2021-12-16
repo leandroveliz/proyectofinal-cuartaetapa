@@ -1,0 +1,99 @@
+@import"reseteo";
+@import"responsive";
+@import"tipografias";
+@import"colores";
+@import"bem";
+
+
+
+/*********************ESTILOS GENERALES*********************/
+body{
+    background-image:url(/imagen/logo.png);
+    background-position:initial;
+    
+}
+section{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 2fr 2fr;
+}
+
+img{
+    width:305px;
+    height:270px;
+    border-radius: 20px;
+} 
+
+/*********************CLASES*********************/
+.body{
+    height:145vh;
+}
+.tituloCom{
+    width: 15vh;
+}
+.tituloNegrita{
+    font-weight: bold;
+}
+
+.tipoPosicion{
+    list-style-position: inherit;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.sinSubrayado{
+    list-style-type: none;
+    text-decoration: none;   
+}
+
+.colorLink{
+    background-color: rgba(122, 200, 211, 0.979);
+    border-radius:5px;
+}
+
+.separacionEsq{
+    border-style: ridge;
+}
+
+.textDerecha{
+    justify-content: flex-end;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+
+.menuFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.separacion{
+        margin: 40px;
+}
+
+
+.footer {
+    grid-area: pie;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+$alto:300px;
+
+    section{
+        height: $alto;
+        article{
+            margin: $alto *4;
+        }
+    }
+
+
+

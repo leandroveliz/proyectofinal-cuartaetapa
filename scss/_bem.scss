@@ -1,0 +1,19 @@
+/*********************METODOLOGIA BEM--BLOQUE-ELEMENTO-MODIFICADOR*********************/
+
+/****BLOQUE****/
+.bloque{
+    display: inline-flex;
+    height: 320px; 
+    margin: 20px; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 20px; 
+    justify-content: center;
+
+}
+
+/****ELEMENTO****/
+.bloque__elemento{
+border-radius: 10px;
+}
+

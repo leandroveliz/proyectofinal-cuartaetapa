@@ -1,0 +1,177 @@
+/*********************RESETEO*********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*******************RESPONSIVE*******************/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */ }
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */ }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */ }
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */ }
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */ }
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */ }
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */ }
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */ }
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* Styles */ }
+
+/*******************TIPOGRAFIAS*******************/
+h3, li, footer {
+  font-family: 'Oswald',sans-serif; }
+
+h1 {
+  font-family: 'Oswald',sans-serif;
+  font-size: 10px; }
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px; }
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  border-radius: 15px; }
+
+/*******************COLORES*******************/
+header {
+  color: #1d33af;
+  background-color: rgba(122, 200, 211, 0.979);
+  background-image: linear-gradient(to top, #44d1d6, rgba(4, 100, 156, 0.527)); }
+
+h2 {
+  color: #1d33af;
+  background-color: rgba(122, 200, 211, 0.979); }
+
+h3 {
+  color: #1d33af;
+  background-color: rgba(122, 200, 211, 0.979);
+  border-radius: 45px; }
+
+li {
+  color: #1d33af; }
+
+p {
+  color: #1d33af;
+  background-color: rgba(122, 200, 211, 0.979); }
+
+.tituloCom {
+  color: #030181;
+  background-color: white; }
+
+.imagenNombre {
+  background-color: #6598db;
+  font-size: 35px; }
+
+.footer {
+  background-image: linear-gradient(to bottom left, #44d1d6, rgba(4, 100, 156, 0.527)); }
+
+/*********************METODOLOGIA BEM--BLOQUE-ELEMENTO-MODIFICADOR*********************/
+/****BLOQUE****/
+.bloque {
+  display: inline-flex;
+  height: 320px;
+  margin: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  justify-content: center; }
+
+/****ELEMENTO****/
+.bloque__elemento {
+  border-radius: 10px; }
+
+/*********************ESTILOS GENERALES*********************/
+body {
+  background-image: url(/imagen/logo.png);
+  background-position: initial; }
+
+section {
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 2fr 2fr; }
+
+img {
+  width: 305px;
+  height: 270px;
+  border-radius: 20px; }
+
+/*********************CLASES*********************/
+.body {
+  height: 145vh; }
+
+.tituloCom {
+  width: 15vh; }
+
+.tituloNegrita {
+  font-weight: bold; }
+
+.tipoPosicion {
+  list-style-position: inherit; }
+
+.centrar {
+  text-align: center; }
+
+.sinSubrayado {
+  list-style-type: none;
+  text-decoration: none; }
+
+.colorLink {
+  background-color: rgba(122, 200, 211, 0.979);
+  border-radius: 5px; }
+
+.separacionEsq {
+  border-style: ridge; }
+
+.textDerecha {
+  justify-content: flex-end; }
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+
+.menuFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.separacion {
+  margin: 40px; }
+
+.footer {
+  grid-area: pie;
+  text-align: right;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+
+section {
+  height: 300px; }
+  section article {
+    margin: 1200px; }
